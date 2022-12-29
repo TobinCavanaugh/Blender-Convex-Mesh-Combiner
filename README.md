@@ -15,4 +15,4 @@ https://user-images.githubusercontent.com/71297845/209892527-14e27706-a820-499e-
 
 ![Screenshot 2022-12-28 173807](https://user-images.githubusercontent.com/71297845/209892521-589b18fb-f6e4-47e3-9657-76eb9e68869b.png)
 
-
+I made this in an afternoon because I was annoyed that blender didn't already have a feature like this.
