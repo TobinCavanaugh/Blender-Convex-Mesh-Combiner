@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "Make Selected Meshes Convex",
+    "name": "Combine Selected Objects To A Single Convex Mesh",
     "blender": (3, 3, 1),
     "category": "Object",
 }
@@ -48,7 +48,7 @@ def menu_func(self, context):
 
 def register():
     bpy.utils.register_class(MakeSelectedMeshesConvex)
-    #bpy.types.VIEW3D_MT_object.append(menu_func)  # Adds the new operator to an existing menu.
+    bpy.types.VIEW3D_MT_object.append(menu_func)  # Adds the new operator to an existing menu.
     bpy.types.VIEW3D_MT_object_context_menu.append(menu_func)
     
 def unregister():
